@@ -1,0 +1,30 @@
+# CompitativeCodingPractice
+
+THIS  is my personal  coding practise materials 
+here is lot of program and problem which implemented by me for learning purpose so
+for reason ,ANYONE can eaisly find specific problem on particular topic,
+
+
+HERE I ORGANISE ALL OF MY LEARNING EXPRIENCE OF CODING IN WELLL MANER
+
+## ANY INTRESTED XYZ CAN REVISE //////COMPLETE DATA STRUCTURE AND LOT OTHER TOPIC FROM THIS  REPO////
+
+
+HERE EACH PROGRAM  ARE IMPLEMENTED BY ME MYSELF   AND I DECLARE  COMMENT IN PROGRAM RELATED TO ISSUES IF THERE 
+
+ANY XYZ IF GET ANY ERROR IN PROGRAM THEN PLEASE FEEL  FREE TO CORRECT ME
+ 
+ 
+ 
+ INTRESTED XYZ CAN FREELY CLONED THIS REPO TO THEIR LOCAL. 
+ 
+ 
+ A'M STILL LEARNER ..
+ 
+ I WILL  COMMIT MY DAILY PRACTICES NOTES TOO.... SOON
+
+THANKS FOR READ ME!!!
+
+
+
+
