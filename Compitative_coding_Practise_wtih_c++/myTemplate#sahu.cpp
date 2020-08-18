@@ -96,7 +96,6 @@ int main()
     while (t--)
     {
         /*sahu everything is Boiled for you*/
-        
     }
 
     return 0;

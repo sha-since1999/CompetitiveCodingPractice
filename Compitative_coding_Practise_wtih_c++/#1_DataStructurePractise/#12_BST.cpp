@@ -253,33 +253,50 @@ void BST::createPost(int *post, int n)
 // void BST::createIn(int *ino, int n)
 // {
 //     node *t, *p;
-//     int i = n / 2;
-//     int j = i;
-//     queue Q(100);
 //     t = new node;
 //     t->data = ino[i];
 //     t->lchild = t->rchild = NULL;
-//     p = root = t;
-//     Q.enqueue(root);
-//     while (i < n && j > 0)
+//     root = t;
+//     stack st(100);
+//     st.push(root);
+//     int low = 0;
+//     int high = n - 1;
+//     int mid = (low+ high) / 2;
+//     while (!st.isEmpty())
 //     {
-//         p = Q.dequeue();
-//         if (ino[--j] < p->data && (ino[++i] > p->data))
+
+//         if(low>high)return;
+//         p = st.top();
+//         st.pop();
+//         if (low== high)
 //         {
-//             cout << p->data << endl;
-//             t = new node;
-//             t->data = ino[j];
+//             t->data = ino[low];
 //             t->lchild = t->rchild = NULL;
 //             p->lchild = t;
-//             Q.enqueue(p->lchild);
-//             t = new node;
-//             t->data = ino[i];
+//         }
+
+//         if (p->left)
+//         {
+//             mid = (low+ mid )/ 2;
+//             t->data = ino[mid];
 //             t->lchild = t->rchild = NULL;
-//             p->rchild = t;
-//             Q.enqueue(p->rchild);
+//             p->lchild = t;
+//             p = t;
+//             st.push(p);
+//         }
+//         else
+//         {
+//             mid = (mid+high) / 2;
+//             p = st.top();
+//             t->data = ino[mid];
+//             t->lchild = t->rchild = NULL;
+//             p->right = t;
+//             p = t;
+//             st.push(p);
 //         }
 //     }
-// }// this very dificult  to impliment no to proper implementation on net also
+
+// } // this very dificult  to impliment no to proper implementation on net also
 
 int main()
 {

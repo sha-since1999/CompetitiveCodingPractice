@@ -5,7 +5,7 @@ using namespace std;
 void seive(int M, int N)
 {
     vector<bool> isPrime(N + 1, true);
-    for (int i = 2; i * i <= N; i++)
+     for (int i = 2; i * i <= N; i++)
         if (isPrime[i])
             for (int j = i * i; j <= N; j += i)
                 isPrime[j] = false;
