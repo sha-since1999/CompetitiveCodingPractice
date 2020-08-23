@@ -33,8 +33,8 @@ typedef vector<pll> vpll;
 typedef vector<vi> vvi;
 typedef vector<vl> vvl;
 const int mod = 1e9 + 7;
-const int I = INT_MAX - 1;
-const int Imn = INT_MIN + 1;
+const int inf = INT_MAX - 1;
+const int mninf = INT_MIN + 1;
 
 template <class A, class B>
 ostream &operator<<(ostream &out, const pair<A, B> &a)
@@ -55,29 +55,7 @@ ostream &operator<<(ostream &out, const vector<A> &v)
     return out << "]";
     ;
 }
-int Mod(int x)
-{
-    x %= mod;
-    if (x < 0)
-        x += mod;
-    return x;
-}
-int Pow(int x, int n)
-{
-    if (n == 0)
-        return 1;
-    int t = Pow(x, n / 2);
-    t = Mod(t * t);
-    if (n & 1)
-        t = Mod(t * x);
-    return t;
-}
-int gcd(int a, int b)
-{
-    if (b == 0)
-        return a;
-    return gcd(b, a % b);
-}
+
 void sahu()
 {
     ios_base::sync_with_stdio(0);
@@ -93,10 +71,58 @@ int main()
     // sahu();
     int a, b, c, d, e, f, g, e, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, x, y, z;
     si(t);
+    int case_no = 1;
     while (t--)
     {
-        /*sahu everything is Boiled for you*/
+        cin >> n >> a >> b >> c;
+        vi vec(n, 1);
+        bool flag = 1;
+        if (a == n and c == n and c != n)
+            flag = 0;
+        if (a + b - c >= n)
+            flag = 0;
+        if (flag)
+        {
+            int i = 0;
+
+            j = 0;
+            y = a - c;
+            int sb = n - y - 1 - (c - 1) - (a - 2);
+            forn(i, y) vec[j++] += sb++;
+
+            o = 0;
+            x = b - c;
+            sb = n - x - 1 - (c - 1);
+            forn(i, x) vec[n - 1 - o] += sb++, o++;
+            i = 0;
+            m = a - 1;
+
+            if (a == c)
+                while (c--)
+                    vec[i++] = n;
+            else if (b == c)
+                while (c--)
+                    vec[n - 1 - i++] = n;
+            else
+                while (c--)
+                    vec[m++] = n;
+
+            cout << "Case #" << case_no++ << ": ";
+            for (int i : vec)
+                cout << i << " ";
+            cout << endl;
+        }
+        else
+        {
+            cout << "Case #" << case_no++ << ": IMPOSSIBLE" << endl;
+        }
     }
 
     return 0;
 }
+
+//test case
+// 3
+// 4 1 3 1
+// 4 4 4 3
+// 5 3 3 2

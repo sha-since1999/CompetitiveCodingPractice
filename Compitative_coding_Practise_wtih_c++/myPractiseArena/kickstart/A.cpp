@@ -36,67 +36,42 @@ const int mod = 1e9 + 7;
 const int I = INT_MAX - 1;
 const int Imn = INT_MIN + 1;
 
-template <class A, class B>
-ostream &operator<<(ostream &out, const pair<A, B> &a)
-{
-    return out << "(" << a.first << ", " << a.second << ")";
-}
-template <class A>
-ostream &operator<<(ostream &out, const vector<A> &v)
-{
-    int i;
-    out << "[";
-    forn(i, sz(v))
-    {
-        if (i)
-            out << ", ";
-        out << v[i];
-    }
-    return out << "]";
-    ;
-}
-int Mod(int x)
-{
-    x %= mod;
-    if (x < 0)
-        x += mod;
-    return x;
-}
-int Pow(int x, int n)
-{
-    if (n == 0)
-        return 1;
-    int t = Pow(x, n / 2);
-    t = Mod(t * t);
-    if (n & 1)
-        t = Mod(t * x);
-    return t;
-}
-int gcd(int a, int b)
-{
-    if (b == 0)
-        return a;
-    return gcd(b, a % b);
-}
-void sahu()
-{
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-#ifndef MY_OFFLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif // !MY_OFFLINE_JUDGE
-}
 int main()
 {
     // sahu();
-    int a, b, c, d, e, f, g, e, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, x, y, z;
+    int i, j, x, y, z, k, l, n, m, o, p, q, r, s, t, u, v;
     si(t);
+    int case_no = 1;
     while (t--)
     {
-        /*sahu everything is Boiled for you*/
+        vi v;
+        cin >> n;
+        forn(i, n) si(p), v.pb(p);
+        int ans = 2;
+        int d = 0;
+        s = 2;
+        o = v[1] - v[0];
+        fork(i, 2, n)
+        {
+            d = v[i] - v[i - 1];
+            if (d == o)
+                s++, ans = max(s, ans);
+            else
+                o = d, s = 2;
+        }
+
+        cout << "Case #" << case_no++ << ": " << ans << endl;
     }
 
     return 0;
 }
+//testcase
+// 4
+// 7
+// 10 7 4 6 8 10 11
+// 4
+// 9 7 5 3
+// 9
+// 5 5 4 5 5 5 4 5 6
+// 10
+// 5 4 3 2 1 2 3 4 5 6
