@@ -1,12 +1,8 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <random>
-#include <chrono>
+#include <bits/stdc++.h>
 using namespace std;
-int n, m;
+int n = 0, m = 0;
 bool has_bridge = false;
-int timer = 1;
+int timer;
 int vis[100001];
 int low[100001];
 int in[100001];
@@ -16,13 +12,11 @@ void dfs(int node, int par)
 {
     vis[node] = 1;
     low[node] = in[node] = timer++;
-
     for (int child : ar[node])
     {
         if (child == par)
             continue;
-
-        if (vis[child] == 1)
+        if (vis[child])
         {
             low[node] = min(low[node], in[child]);
             if (in[child] < in[node])
