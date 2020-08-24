@@ -1,0 +1,9 @@
+8 8
+###MMMMM
+#.AMMMMM
+#.#MMMMM
+#.#MMMMM
+#.#MMMMM
+#.#MMMMM
+#..MMMMM
+#.#MMMMM

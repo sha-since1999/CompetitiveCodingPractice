@@ -3,7 +3,6 @@ using namespace std;
 vector<int> ar[1001];
 int vis[1001] = {0};
 int color[1001];
-int timer = 1;
 bool dfs(int node, int c) //  correct
 {
     vis[node] = 1;

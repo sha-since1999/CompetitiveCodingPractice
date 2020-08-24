@@ -1,12 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define gc getchar_unlocked
+#define gc getchar_unlocked()
+#define pc(c) putchar_unlocked(c);
 #define forn(i, n) for (i = 0; i < n; i++)
 #define fork(i, k, n) for (i = k; k < n ? i < n : i > n; k < n ? i += 1 : i -= 1)
 #define ll long long int
-#define si(x) scanf("%d", &x)
+#define si(x) scanf("%d ", &x)
 #define sl(x) scanf("%lld", &x)
 #define ss(s) scanf("%s", s)
+#define sv(v) forn(i, n) si(z), v.pb(z)
 #define pi(x) printf("%d\n", x)
 #define pl(x) printf("%lld\n", x)
 #define ps(s) printf("%s\n", s)
@@ -35,7 +37,6 @@ typedef vector<vl> vvl;
 const int mod = 1e9 + 7;
 const int I = INT_MAX - 1;
 const int Imn = INT_MIN + 1;
-
 template <class A, class B>
 ostream &operator<<(ostream &out, const pair<A, B> &a)
 {
@@ -53,7 +54,6 @@ ostream &operator<<(ostream &out, const vector<A> &v)
         out << v[i];
     }
     return out << "]";
-    ;
 }
 int Mod(int x)
 {
@@ -72,17 +72,8 @@ int Pow(int x, int n)
         t = Mod(t * x);
     return t;
 }
-int gcd(int a, int b)
-{
-    if (b == 0)
-        return a;
-    return gcd(b, a % b);
-}
 void sahu()
 {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
 #ifndef MY_OFFLINE_JUDGE
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
@@ -90,13 +81,22 @@ void sahu()
 }
 int main()
 {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
     // sahu();
-    int a, b, c, d, e, f, g, e, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, x, y, z;
+    int a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, t, u, v, w, x, y, z;
+    char ch;
+    string s;
     si(t);
     while (t--)
     {
-        /*sahu everything is Boiled for you*/
-    }
+        si(n);
+        vi ar;
+        sv(ar);
 
+        /*sahu everything is Boiled for you*/
+
+    }
     return 0;
 }
