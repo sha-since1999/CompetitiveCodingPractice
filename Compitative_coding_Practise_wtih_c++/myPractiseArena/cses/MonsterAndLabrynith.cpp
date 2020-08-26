@@ -22,15 +22,15 @@ int dy[4] = {-1, 1, 0, 0};
 char dir[4] = {'L', 'R', 'U', 'D'};
 char ar[1010][1010];
 int Ax, Ay, Bx[1001], By[1001];
-bool is_valid(int i, int j)
-
+vector<int> monsters;
+bool is_valid(int i, int j ,int mx,int my)
 {
-    if (i < 0 or i >= n or j < 0 or j >= m or vis[i][j] or ar[i][j] == '#' or ar[i][j] == 'M')
+    if (i < 0 or i >= n or j < 0 or j >= m or mx < 0 or mx>= n or my < 0 or j >= mor vis[i][j] or ar[i][j] == '#' or ar[i][j] == 'M')
         return false;
     return true;
 }
 
-void stopbfs(int x, int y)
+void bfs(int x, int y)
 {
     queue<pair<int, int>> q;
     q.push({x, y});
@@ -56,17 +56,25 @@ void stopbfs(int x, int y)
         }
     }
 }
-void dfs(int x, int y, int px, int py,char c)
+void dfs(int x, int y, int mx, int my, int px, int py, char c)
 {
     pr[x][y] = {px, py, c};
     vis[x][y] = 1;
-    for (int i = 0; i < 4; i++)
+    for (auto m : monsters)
     {
-        int a = x + dx[i];
-        int b = y + dy[i];
-        char c = dir[i];
-        if (is_valid(a, b))
-            dfs(a,b,x,y, c);
+        int mx = m.first;
+        int my = m.second;
+        for (int i = 0; i < 4; i++)
+        {
+            int a = x + dx[i];
+            int b = y + dy[i];
+            int ma = mx + dx[i];
+            int mb = my + dy[i];
+            char c = dir[i];
+
+            if (is_valid(a, b, ma, mb))
+                dfs(a, b, ma, mb x, y, c);
+        }
     }
 }
 
@@ -82,6 +90,8 @@ int main()
         for (int j = 0; j < m; j++)
         {
             cin >> ar[i][j];
+            if (ar[i][j] == 'M')
+                monsters.push_back({i, j});
             if (ar[i][j] == 'A')
                 Ax = i, Ay = j;
             if ((i == 0 or i == n - 1) and ar[i][j] == '.')
@@ -96,10 +106,13 @@ int main()
         // cout << ar[Bx[k]][By[k]] << endl;
     }
     // bfs(Ax, Ay);
-    dfs(Ax, Ay,-1,-1, 'A');
+
+    for (auto m : monsters)
+        if (!vis[i][j] or !vis[m.first][m.second])
+            dfs(Ax, Ay, m.first, m.second, 'A');
+
     // cout << pr[Ax][Ay].dir << endl;
     bool dont = 1;
-
     while (szk--)
         if (pr[Bx[szk]][By[szk]].dir != '$')
         {

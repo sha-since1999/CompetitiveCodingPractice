@@ -16,11 +16,11 @@ vector<vector<int>> powerSet(vector<int> a)
     }
     return powerset;
 }
+
 int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-
     vector<int> a{1, 2, 3};
     vector<vector<int>> powerset;
     powerset = powerSet(a);

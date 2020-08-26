@@ -20,7 +20,7 @@ void powerSetString(string s)
     cout << s << " ]" << endl;
 }
 
-vector<vector<int>> powerSetDigit()
+vector<vector<int>> powerSetDigit(vector<int> a)
 {
     vector<vector<int>> powerset;
     int x = 1 << a.size();
@@ -29,7 +29,7 @@ vector<vector<int>> powerSetDigit()
     {
         int temp = i;
         int idx = 0;
-        vector<ll> currSubset;
+        vector<int> currSubset;
         while (temp)
         {
             if (temp & 1)
@@ -45,8 +45,21 @@ int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+
     string s = "abc";
     powerSetString(s);
+
+    vector<int> a{1, 2, 3};
+    vector<vector<int>> powerset;
+    powerset = powerSetDigit(a);
+    for (auto v : powerset)
+    {
+        cout << "[ ";
+        for (int x : v)
+            cout << x << " ";
+
+        cout << "]";
+    }
 
     return 0;
 }
