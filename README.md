@@ -16,18 +16,20 @@ if you ask me any thing ,That's excites me also 😊
 
 In this repo each and every program is implemented by me ,myself and i also declared a comment in the program  if there is need of it..
 
-ANY XYZ IF GET ANY ERROR IN PROGRAM THEN PLEASE FEEL FREE TO CORRECT ME...(That would be highly appriciated)
+If any xyz got  a error in the implementation than feel free to correct me ...(That would be highly appriciated)
 from my end every Program would be well tested...
 
-INTRESTED XYZ CAN FREELY CLONED THIS REPO TO THEIR LOCAL. Its all free for you guys  😊
+Intrested xyz can freely clone or fork this repo.. Its all free for you guys 😊 Happy coding...
   
  A'M STILL LEARNER ..
- I WILL  COMMIT MY DAILY PRACTICES PROGRAM ON THIS REPO SO IF INTRESTED THEN STAY CONNECTED WITH ME..
+ I WILL  COMMIT MY DAILY PRACTICES PROGRAM ON THIS REPO SO IF INTRESTED THEN STAY CONNECTED WITH THIS REPO..
  NOTES WILL BE COMMITED .... SOON
 
  THANKS FOR READ ME!!!
+ 
+ 
 
- # PLEASE  ST🌟AR THIS  REPOSITORY IF  IT REALLY HELPFULL FOR YOU AND OTHERS .
- IF YOU DO SO THAT KEEP ME MOTIVATED IN THE JOURNEY OF LEARNING ... THANK YOU GENTLEMAN..
- #  😊 SHOW ME SOME LOVE ⭐️
+# If You ST🌟ARing  this repository that would relize me, how much it helpfull for others or not.
+ if do so that keep me motivated for my learning journey... thank you guys..
+ #  😊 SHOW ME SOME♥️  by Staring ⭐️
 
