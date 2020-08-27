@@ -1,4 +1,4 @@
-# Hi .. this is Rohit Sahu🇮🇳
+#Hi .. this is Rohit Sahu🇮🇳
 
 THIS  is my personal  coding practise materials 
 Here is lot of program and problem which are implemented by me for learning purpose and for revision in future if i need ,
@@ -8,7 +8,7 @@ Anyone can eaisly find specific problem on particular topic,
 HERE I ORGANISE ALL OF MY LEARNING EXPRIENCE OF CODING IN WELLL MANER
 I hope ,this will be help  for you if you need to revise any DS topic.. 
 
-# I have also maked a particular notes on each algorithm  notes.
+## I have also maked a particular notes on each algorithm  notes.
 I will upload it  soon.. 
 In the notes i have completed all  Alogorithms and Problem of #Algoexpert.io  and some other famous algo specialist teachers .
 If anyone intrest to know that from where i learned these all things then can contact me. I can help you in your journey of learning...
@@ -29,7 +29,9 @@ Intrested xyz can freely clone or fork this repo.. Its all free for you guys �
  
  
 
-# If You ST🌟ARing  this repository that would relize me, how much it helpfull for others or not.
+# If You St🌟aRing  this repository that would relize me, how much it helpfull for others or not.
  if do so that keep me motivated for my learning journey... thank you guys..
- #  😊 SHOW ME SOME♥️  by Staring ⭐️
+ 
+##  😊 SHOW ME SOME♥️  by Staring ⭐️
+
 
