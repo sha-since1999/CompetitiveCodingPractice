@@ -5,7 +5,7 @@ Here are a lots of program and problem which are implemented by me for learning 
 so you can also revise a lot of topic and algorithms related to Data structure and Graph theory. 
 Anyone can eaisly find specific problem on particular topic,
 
-HERE I ORGANISE ALL OF MY LEARNING EXPRIENCE OF CODING IN A  WELL MANNER.
+HERE I HAVE ORGANISED ALL OF MY LEARNING EXPRIENCE OF CODING IN A  WELL MANNER.
 
 I hope ,this will be helpful for you if you need to revise any DS topic.. 
 
