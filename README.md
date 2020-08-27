@@ -1,15 +1,15 @@
 # Hi ..  This is Rohit Sahu🇮🇳
 
 THIS  is my personal  coding practise materials 
-Here is lot of program and problem which are implemented by me for learning purpose and for revision in future if i need ,
+Here are a lots of program and problem which are implemented by me for learning purpose and for revision in future if i need ,
 so you can also revise a lot of topic and algorithms related to Data structure and Graph theory. 
 Anyone can eaisly find specific problem on particular topic,
 
-HERE I ORGANISE ALL OF MY LEARNING EXPRIENCE OF CODING IN WELLL MANER.
+HERE I ORGANISE ALL OF MY LEARNING EXPRIENCE OF CODING IN A  WELL MANNER.
 
-I hope ,this will be help  for you if you need to revise any DS topic.. 
+I hope ,this will be helpful for you if you need to revise any DS topic.. 
 
-one more thing my editor is periodically sync  with github 😀 means you also can get solution of runing contests if a'm able to solve them.
+one more thing my editor is periodically sync  with github 😀 that means you also can get solution of runing contests if I'm able to solve them.
 
 ![alt text](https://github.com/sha-since1999/CompetitiveCodingPractice/blob/gh-pages/theme.png?raw=true)
 
