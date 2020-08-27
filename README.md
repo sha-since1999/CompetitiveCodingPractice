@@ -5,10 +5,11 @@ Here is lot of program and problem which are implemented by me for learning purp
 so you can also revise a lot of topic and algorithms related to Data structure and Graph theory. 
 Anyone can eaisly find specific problem on particular topic,
 
-HERE I ORGANISE ALL OF MY LEARNING EXPRIENCE OF CODING IN WELLL MANER
+HERE I ORGANISE ALL OF MY LEARNING EXPRIENCE OF CODING IN WELLL MANER.
+
 I hope ,this will be help  for you if you need to revise any DS topic.. 
 
-## I have also maked a particular notes on each algorithm  notes.
+## I have also maked a particular notes on Algorithm , Concept and Tricks .
 I will upload it  soon.. 
 In the notes i have completed all  Alogorithms and Problem of #Algoexpert.io  and some other famous algo specialist teachers .
 If anyone intrest to know that from where i learned these all things then can contact me. I can help you in your journey of learning...
@@ -21,9 +22,10 @@ from my end every Program would be well tested...
 
 Intrested xyz can freely clone or fork this repo.. Its all free for you guys 😊 Happy coding...
   
- A'M STILL LEARNER ..
- I WILL  COMMIT MY DAILY PRACTICES PROGRAM ON THIS REPO SO IF INTRESTED THEN STAY CONNECTED WITH THIS REPO..
- NOTES WILL BE COMMITED .... SOON
+A'M STILL LEARNER ..
+ 
+I WILL  COMMIT MY DAILY PRACTICES PROGRAM ON THIS REPO SO IF INTRESTED THEN STAY CONNECTED WITH THIS REPO..
+NOTES WILL BE COMMITED .... SOON
 
  THANKS FOR READ ME!!!
  
