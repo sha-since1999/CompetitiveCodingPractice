@@ -1,4 +1,4 @@
-#Hi .. this is Rohit Sahu🇮🇳
+# Hi ..  This is Rohit Sahu🇮🇳
 
 THIS  is my personal  coding practise materials 
 Here is lot of program and problem which are implemented by me for learning purpose and for revision in future if i need ,
