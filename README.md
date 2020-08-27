@@ -8,8 +8,11 @@ Anyone can eaisly find specific problem on particular topic,
 HERE I ORGANISE ALL OF MY LEARNING EXPRIENCE OF CODING IN WELLL MANER.
 
 I hope ,this will be help  for you if you need to revise any DS topic.. 
- 
+
+one more thing my editor is periodically sync  with github 😀 means you also can get solution of runing contests if a'm able to solve them.
+
 ![alt text](https://github.com/sha-since1999/CompetitiveCodingPractice/blob/gh-pages/theme.png?raw=true)
+
 
 ## I have also maked a particular notes on Algorithm , Concept and Tricks .
 I will upload it  soon.. 
