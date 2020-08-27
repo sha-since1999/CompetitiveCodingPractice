@@ -12,7 +12,6 @@ I hope ,this will be help  for you if you need to revise any DS topic..
 ## I have also maked a particular notes on Algorithm , Concept and Tricks .
 I will upload it  soon.. 
 
-'''markdown
 In the notes i have completed all  Alogorithms and Problem of #Algoexpert.io  and some other famous algo specialist teachers .
 If anyone intrest to know that from where i learned these all things then can contact me. I can help you in your journey of learning...
 if you ask me any thing ,That's excites me also 😊
@@ -23,7 +22,7 @@ If any xyz got  a error in the implementation than feel free to correct me ...(T
 from my end every Program would be well tested...
 
 Intrested xyz can freely clone or fork this repo.. Its all free for you guys 😊 Happy coding...
-'''
+
 A'M STILL LEARNER ..
  
 I WILL  COMMIT MY DAILY PRACTICES PROGRAM ON THIS REPO SO IF INTRESTED THEN STAY CONNECTED WITH THIS REPO..
