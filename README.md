@@ -17,8 +17,8 @@ one more thing my editor is periodically sync  with github 😀 that means you a
 ## I have also maked a particular notes on Algorithm , Concept and Tricks .
 I will upload it  soon.. 
 In the notes i have completed all  Alogorithms and Problem of #Algoexpert.io  and some other famous algo specialist teachers .
-If anyone intrest to know that from where i learned these all things then can contact me. I can help you in your journey of learning...
-if you ask me any thing ,That's excites me also 😊
+If anyone intrested to know that from where i have learned all these things then they can contact me. i will help them in their journey of learning...
+if you ask me any thing ,Then it will be my pleasure 😊
 
 In this repo each and every program is implemented by me ,myself and i also declared a comment in the program  if there is need of it..
 
@@ -27,7 +27,7 @@ from my end every Program would be well tested...
 
 Intrested xyz can freely clone or fork this repo.. Its all free for you guys 😊 Happy coding...
   
-A'M STILL LEARNER ..
+I'm still a learner ..
  
 I WILL  COMMIT MY DAILY PRACTICES PROGRAM ON THIS REPO SO IF INTRESTED THEN STAY CONNECTED WITH THIS REPO..
 NOTES WILL BE COMMITED .... SOON
