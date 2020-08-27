@@ -41,6 +41,6 @@ NOTES WILL BE COMMITED .... SOON
  
  at last i want to say sorry  for my bad English..
  
-##  😊 SHOW ME SOME♥️  by Staring ⭐️
+##  😊 SHOW SOME ♥️  by Staring ⭐️
 
 
