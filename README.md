@@ -27,6 +27,17 @@ from my end every Program would be well tested...
 
 Intrested xyz can freely clone or fork this repo.. Its all free for you guys 😊 Happy coding...
   
+My Recent Achievements 
+- I Have Ranked Under 5000,Google Kickstart Round E
+- Qualified FaceBook Hacker cup Elimination Round
+- Ranked 5000 on scaler Edge hiring challenge known as InterviewBit..
+- Participated in round 2 HackWithInfy.
+- semifinalist in code Gadilator contest.
+- 1600++ Rating on codechef(***)
+- 2 star Profile with 6 star Reputation on leetcode have solved 100+ Problem on various algorithms
+- Participated in Google online coding challenge - new Grad
+
+
 I'm still a learner ..
  
 I WILL  COMMIT MY DAILY PRACTICES PROGRAM ON THIS REPO SO IF INTRESTED THEN STAY CONNECTED WITH THIS REPO..
