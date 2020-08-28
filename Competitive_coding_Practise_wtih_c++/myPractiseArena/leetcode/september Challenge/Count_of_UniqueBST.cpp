@@ -20,8 +20,8 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    Solution sl;
-    cout << sl.numTrees(4) << endl;
+    Solution sol;
+    cout << sol.numTrees(4) << endl;
 
     return 0;
 }

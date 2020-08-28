@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <bits/stdc++.h> // this partially accepted
 using namespace std;
 typedef long long ll;
 void sahu()
@@ -23,9 +23,9 @@ char dir[4] = {'L', 'R', 'U', 'D'};
 char ar[1010][1010];
 int Ax, Ay, Bx[1001], By[1001];
 vector<int> monsters;
-bool is_valid(int i, int j ,int mx,int my)
+bool is_valid(int i, int j, int mx, int my)
 {
-    if (i < 0 or i >= n or j < 0 or j >= m or mx < 0 or mx>= n or my < 0 or j >= mor vis[i][j] or ar[i][j] == '#' or ar[i][j] == 'M')
+    if (i < 0 or i >= n or j < 0 or j >= m or mx < 0 or mx >= n or my < 0 or j >= mor vis[i][j] or ar[i][j] == '#' or ar[i][j] == 'M')
         return false;
     return true;
 }
