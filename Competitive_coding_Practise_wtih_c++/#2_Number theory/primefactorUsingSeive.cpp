@@ -16,7 +16,6 @@ void printPrimeFactorUsingSeive(int a)
     while (a != 1)
         cout << primeFactorTable[a] << " ",
             a /= primeFactorTable[a];
-p
     cout << endl; //just for flash;
 }
 //**this another simple old approach

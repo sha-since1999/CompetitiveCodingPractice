@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+const int mod = 1e9 + 7;
 ll gcd(ll a, ll b)
 {
     if (b == 0)
@@ -19,6 +20,13 @@ ll power(ll b, ll a, ll m) // here b for base
     }
     return res;
 }
+int Mod(int x)
+{
+    x %= mod;
+    if (x < 0)
+        x += mod;
+    return x;
+}
 ll moduloInverse2(ll a, ll m) // for this method m should be prime
 {
     if (gcd(a, m) != 1)
@@ -35,11 +43,11 @@ ll moduloInverse1(ll a, ll m) //simple method a*x=1(mod m)
         temp = ((a % m) * (i % m)) % m, i++;
     return i - 1;
 }
+
 int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-
     int t;
     cin >> t;
     while (t--)
@@ -48,6 +56,7 @@ int main()
         cin >> a >> m;
 
         cout << moduloInverse1(a, m) << endl;
+
         cout << moduloInverse2(a, m) << endl; //optimized fastest;
     }
 
