@@ -24,6 +24,8 @@ void perm_first_method(string s, int k)
             }
         }
 }
+
+
 void swap(char *a, char *b)
 {
     char temp = *a;

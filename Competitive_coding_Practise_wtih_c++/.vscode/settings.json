@@ -91,7 +91,6 @@
     "terminal.integrated.fontWeight": "100",
     "terminal.integrated.lineHeight": 1.5,
     "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.suggest.localityBonus": true,
     "editor.suggest.shareSuggestSelections": true,
@@ -108,9 +107,7 @@
     "code-runner.showExecutionMessage": false,
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.showTabs": false,
-    "workbench.editorAssociations": [
-    
-    ],
+    "workbench.editorAssociations": {},
     "debug.onTaskErrors": "showErrors",
     "debug.openExplorerOnEnd": true,
     "debug.showBreakpointsInOverviewRuler": true,
@@ -122,5 +119,7 @@
     "debug.allowBreakpointsEverywhere": true,
     "problems.showCurrentInStatus": true,
     "code-runner.runInTerminal": true,
-    "terminal.integrated.allowMnemonics": true
+    "terminal.integrated.allowMnemonics": true,
+    "editor.mouseWheelZoom": true,
+    "editor.formatOnSave": true
 }

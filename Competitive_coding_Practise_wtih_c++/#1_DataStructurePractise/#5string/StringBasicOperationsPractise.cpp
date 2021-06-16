@@ -19,6 +19,7 @@ int main()
     //     cout << *it << "  ";
     // for (auto &&i : Str1)
     //     cout << i << " ";
+
     Str2 = Str1.substr(4, 9);
     cout << Str2 << endl;
 
@@ -31,8 +32,6 @@ int main()
     //         cout << "no containg charcter tooo" << endl;
     //     break;
     // }
-
-
 
     //     string sahu = "123312";
     //     string rohit = "1343";
