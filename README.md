@@ -30,11 +30,11 @@ Intrested xyz can freely clone or fork this repo.. Its all free for you guys ðŸ˜
 My Recent Achievements 
 - I Have Ranked Under 5000,Google Kickstart Round E
 - Qualified FaceBook Hacker cup Elimination Round
-- Ranked 5000 on scaler Edge hiring challenge known as InterviewBit..
+- Ranked under 5000 on scaler Edge hiring challenge known as InterviewBit..
 - Participated in round 2 HackWithInfy.
 - semifinalist in code Gadilator contest.
-- 1600++ Rating on codechef(***)
-- 2 star Profile with 6 star Reputation on leetcode have solved 100+ Problem on various algorithms
+- 1700++ Rating on codechef(***)
+- 2 star Profile with 10 star Reputation on leetcode have solved 200+ Problem on various algorithms
 - Participated in Google online coding challenge - new Grad
 
 
