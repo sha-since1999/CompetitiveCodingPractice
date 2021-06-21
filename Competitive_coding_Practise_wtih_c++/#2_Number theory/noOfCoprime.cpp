@@ -35,7 +35,7 @@ int isPrime(int n)
 //Euler's totient functions
 int phiETF(int p, int x = 1) // to calculate no co-prime to    ***here p should be prime****
 {                            //phi(p)= p-1  and phi(p^x)=p^(x-1)*(p-1);
-    if (p < 2)
+    if (p < 2)   
         return 0;
     // if (!isPrime(p))
     //     return -1;
