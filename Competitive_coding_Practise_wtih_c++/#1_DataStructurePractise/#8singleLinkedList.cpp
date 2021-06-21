@@ -47,24 +47,24 @@ node *search(struct node *p, int x)
 
 int min(struct node *p)
 {
-    int i;
+    int mn;
     if (!p)
         return INT32_MAX;
     else
     {
-        i = min(p->next);
-        return p->data > i ? i : p->data;
+        mn = min(p->next);
+        return p->data > mn ? mn : p->data;
     }
 }
 int max(struct node *p)
 {
-    int i;
+    int mx;
     if (!p)
         return INT32_MIN;
     else
     {
-        i = max(p->next);
-        return p->data > i ? p->data : i;
+        mx = max(p->next);
+        return p->data > mx ? p->data : mx;
     }
 }
 node *lenear_search(struct node *p, int key)
@@ -89,9 +89,7 @@ node *lenear_search(struct node *p, int key)
 int count_node(struct node *ptr)
 {
     if (!ptr)
-    {
         return 0;
-    }
     return count_node(ptr->next) + 1;
 }
 void display(struct node *ptr)
@@ -153,7 +151,7 @@ void insert_at_last(struct node *p, int key)
     t = (struct node *)malloc(sizeof(struct node));
     t->data = key;
     t->next = NULL;
-    while (p!= NULL)
+    while (p != NULL)
     {
         p = p->next;
     }
@@ -165,8 +163,8 @@ void insert_at_last(struct node *p, int key)
 
 void insert_in_sorted_list(struct node *p, int key)
 {
-    struct node *q, *first, *t;
-    first = q = p;
+    struct node *q, *t;
+    q = p;
     t = (struct node *)malloc(sizeof(struct node));
     t->data = key;
 
@@ -175,24 +173,21 @@ void insert_in_sorted_list(struct node *p, int key)
         t->next = NULL;
         first = t;
     }
+    else if (first->data > key)
+    {
+        t->next = first;
+        first = t;
+    }
     else
     {
-
         while (p && p->data < key)
         {
             q = p;
             p = p->next;
         }
-        if (first->next == NULL)
-        {
-            p->next = first;
-            first = p;
-        }
-        else
-        {
-            t->next = q->next;
-            q->next = t;
-        }
+
+        t->next = q->next;
+        q->next = t;
     }
 }
 int deletelist(struct node *p, int index)
@@ -284,14 +279,14 @@ node *mergesortedll(node *p, node *q)
     if (p->data < q->data)
     {
         third = last = p;
-        p = p->next;
         last->next = NULL;
+        p = p->next;
     }
     else
     {
         third = last = q;
-        q = q->next;
         last->next = NULL;
+        q = q->next;
     }
     while (q && p)
     {
@@ -299,15 +294,15 @@ node *mergesortedll(node *p, node *q)
         {
             last->next = p;
             last = p;
-            p = p->next;
             last->next = NULL;
+            p = p->next;
         }
         else
         {
             last->next = q;
             last = q;
-            q = q->next;
             last->next = NULL;
+            q = q->next;
         }
     }
     if (p)
@@ -351,11 +346,10 @@ void distroy(node *p)
 
 int main()
 {
-    int a[] = {2, 4, 9, 15, 34, 21, 1};
+    int a[] = {2, 4, 9, 15, 34, 21};
     int s[] = {1, 3, 5, 6, 7};
-
-    // first = create(first, a, 7);
-    // display(first);
+    first = create(first, a, 6);
+    display(first);
 
     // cout << endl
     //      << count_node(first) << endl;
@@ -368,7 +362,7 @@ int main()
     // insert_at_last(first,6);
     // insert_at_last(first,3);
     // insert_in_sorted_list(first, 7);
-    // insert_in_sorted_list(first, 3);
+    insert_in_sorted_list(first, 1);
     // insert_in_sorted_list(first, 8);
 
     // cout
@@ -386,7 +380,7 @@ int main()
     // display(second);
     cout << endl;
     // Rreverse(first, NULL);
-    // display(first);
+    display(first);
 
     // display(concatinatell(first, second));
     // cout << endl;
@@ -404,6 +398,6 @@ int main()
     // distroy(first);
     // insert_at_last(first,9);
     // display(first);
-     distroy(first);
+    distroy(first);
     return 0;
 }

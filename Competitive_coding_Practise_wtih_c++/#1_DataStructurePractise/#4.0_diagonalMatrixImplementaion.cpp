@@ -55,11 +55,10 @@ void matrix ::display()
 
     for (int i = 01; i <= row; i++)
     {
-        for (int j = 1; j <=column; j++)
+        for (int j = 1; j <= column; j++)
         {
             if (j > i)
-                cout << "0"
-                     << " ";
+                cout << "0 ";
 
             else
             {
@@ -73,7 +72,7 @@ int matrix ::set(int key, int i, int j)
 {
     if (i >= j)
     {
-        A[(i * (i - 1) / 2 )+ j-1] = key;
+        A[(i * (i - 1) / 2) + j - 1] = key;
         length++;
     }
 
