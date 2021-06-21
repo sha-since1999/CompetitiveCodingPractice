@@ -118,18 +118,56 @@ int circularLL::insert(int index, int key)
     return 1;
 }
 
-int circulaLL::delete_node(int)
+int circularLL ::delete_node(int key)
 {
+    node *p = head, *q, *t;
 
-} 
+    if (head->data == key)
+    {
+        do
+        {
+            q = p;
+            p = p->next;
+        } while (p != head);
+
+        cout << "delete:" << head->data << endl;
+        t = head;
+        head = head->next;
+        q->next = head;
+        free(t);
+    }
+    else
+    {
+        do
+        {
+            q = p;
+            p = p->next;
+            if (p and p->data == key)
+                break;
+
+        } while (p != head);
+        if (p == head)
+        {
+            cout << "invaild key : " << key << endl;
+            return -1;
+        }
+        cout << "delete:" << p->data << endl;
+        q->next = p->next;
+        free(p);
+    }
+    return 1;
+}
 int main()
 {
     int a[] = {1, 2, 23, 4, 5, 656, 54, 8, 3};
     circularLL cll;
     cll.create(a, 9);
+    cll.insert(1, 101);
     cll.display();
     // cout << cll.length() << endl;
-    cll.insert(1, 101);
+    cll.delete_node(101);
+    cll.delete_node(1);
+    cll.delete_node(58);
     cll.display();
 
     return 0;
