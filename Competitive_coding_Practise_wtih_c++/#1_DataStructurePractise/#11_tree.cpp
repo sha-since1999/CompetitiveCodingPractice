@@ -220,16 +220,16 @@ int tree::sum_of_key(node *p)
     }
     return 0;
 }
-// int tree::count_terminal(node *p)
-// {
-//     if (!p)
-//         return 0;
-//     if (!p->lchild && p->rchild)
-//     {
-//         return count_terminal(p->lchild) + count_terminal(p->rchild) + 1;
-//     }
-//     return count_terminal(p->lchild) + count_terminal(p->rchild);
-// } //not corrrect
+int tree::count_terminal(node *p)
+{
+    if (!p)
+        return 0;
+    if (p->lchild and p->rchild)
+        return count_terminal(p->lchild) + count_terminal(p->rchild);
+    if (p->lchild or p->rchild)
+        return count_terminal(p->lchild) + count_terminal(p->rchild) + 1;
+    return 2;
+}
 
 int main()
 {
@@ -246,6 +246,7 @@ int main()
     cout << t.sum_of_key(t.root) << endl;
     cout << t.count(t.root) << endl;
     cout << t.height(t.root) << endl;
+    cout << "no of terminal nodes: " << t.count_terminal(t.root) << endl;
 
     // cout << t.count_terminal(t.root);
     return 0;

@@ -21,7 +21,7 @@ bool armstrong(int n)
 
     if (s == n)
         return true;
-    else∑
+    else
         return false;
 }
 int main()
