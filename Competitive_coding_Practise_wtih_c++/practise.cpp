@@ -44,12 +44,12 @@ void insertionSort(int *a, int n)
 
 void selectionSort(int *a, int n)
 {
-    for (int i = 0; i < n - 1; i++)
+    for (int i = 0; i < n-1; i++)
     {
-        int key = a[i], j;
-        for (j = i; j < n; j++)
+        int key = i, j;
+        for (j = i+1; j < n; j++)
         {
-            if (a[j] < key)
+            if (a[j] < a[key])
                 key = j;
         }
         swap(a[key], a[i]);
@@ -113,8 +113,8 @@ int main()
     //     cout << a[i] << " ";
     // selectionSort(a, n);
 
-    bubbleSort(a, n);
-    cout << endl;
+    // bubbleSort(a, n);
+    // cout << endl;
     for (int i = 0; i < n; i++)
         cout << a[i] << " ";
 
@@ -125,4 +125,3 @@ int main()
 
     return 0;
 }
-

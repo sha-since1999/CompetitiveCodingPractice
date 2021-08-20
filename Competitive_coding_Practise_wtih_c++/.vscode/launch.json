@@ -4,8 +4,27 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-
+        {
+            "type": "java",
+            "name": "Launch stackk",
+            "request": "launch",
+            "mainClass": "stackk",
+            "projectName": "Competitive_coding_Practise_wtih_c++_942ca7c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch practise",
+            "request": "launch",
+            "mainClass": "practise",
+            "projectName": "Competitive_coding_Practise_wtih_c++_942ca7c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practise",
+            "request": "launch",
+            "mainClass": "Practise",
+            "projectName": "Competitive_coding_Practise_wtih_c++_942ca7c6"
+        },
         {
             "name": "g++ - Build and debug active file",
             "type": "cppdbg",

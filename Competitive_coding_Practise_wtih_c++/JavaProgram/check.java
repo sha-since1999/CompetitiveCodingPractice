@@ -1,8 +1,5 @@
 /* Read input from STDIN. Print your output to STDOUT*/
-
-import java.io.*;
 import java.util.*;
-
 public class check {
     static void solv(int n, int x, int[] p) {
         for (int j = 1; j <= n; j++) {
