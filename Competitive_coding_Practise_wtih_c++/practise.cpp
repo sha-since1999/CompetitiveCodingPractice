@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-void swap(int &a, int &b)
+void swap(int &a, int &b) // BTW no need to craete this fucntion  bec already available in library.
 {
     a = a ^ b;
     b = a ^ b;
@@ -30,13 +30,11 @@ void insertionSort(int *a, int n)
 
     for (int i = 1; i < n; i++)
     {
-        int key = a[i], j;
-        for (j = i - 1; j >= 0; j--)
+        int key = a[i], j = i - 1;
+        while (j >= 0 and key < a[j])
         {
-            if (key < a[j])
-                a[j + 1] = a[j];
-            else
-                break;
+            a[j + 1] = a[j];
+            j--;
         }
         a[j + 1] = key;
     }
@@ -44,10 +42,10 @@ void insertionSort(int *a, int n)
 
 void selectionSort(int *a, int n)
 {
-    for (int i = 0; i < n-1; i++)
+    for (int i = 0; i < n - 1; i++)
     {
         int key = i, j;
-        for (j = i+1; j < n; j++)
+        for (j = i + 1; j < n; j++)
         {
             if (a[j] < a[key])
                 key = j;

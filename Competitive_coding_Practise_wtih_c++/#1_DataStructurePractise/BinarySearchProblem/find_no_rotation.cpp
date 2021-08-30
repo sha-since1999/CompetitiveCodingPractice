@@ -46,3 +46,4 @@ int main()
         cout << a[i] << " ";
     return 0;
 }
+// wrong  code have to verify it

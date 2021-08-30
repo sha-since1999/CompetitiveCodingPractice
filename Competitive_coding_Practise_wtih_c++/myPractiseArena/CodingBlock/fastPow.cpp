@@ -15,6 +15,12 @@ int fastPow(int a, int b)
     }
     return res;
 }
+int pow(int a, int n)
+{
+    if (n == 0)
+        return 1;
+    return a * (a, n - 1);
+}
 int main()
 {
     ios::sync_with_stdio(false);
