@@ -13,7 +13,7 @@ int main()
         cout << s << endl;
     } while (next_permutation(s.begin(), s.end()));
 
-    // for vector......----------
+    // for vector......---------
 
     vector<int> v = {1, 2, 3};
     do
