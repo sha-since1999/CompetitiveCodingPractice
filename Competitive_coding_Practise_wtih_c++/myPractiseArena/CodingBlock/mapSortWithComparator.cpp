@@ -1,11 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
+class comparator
+{
+    bool operator()(const pair<int, int> a, pair<int, int> b)
+    {
+        return a.second > b.second;
+    }
+};
 bool cmppair(pair<int, int> a, pair<int, int> b)
 {
     if (a.second != b.second)
         return a.second < b.second;
     return a.first < b.first;
 }
+
 bool cmp(int a, int b) { return a > b; }
 int main()
 {

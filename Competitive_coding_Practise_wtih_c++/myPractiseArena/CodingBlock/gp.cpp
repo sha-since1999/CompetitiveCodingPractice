@@ -15,7 +15,7 @@ char *gp(int input1, int input2, int input3)
 
     return (char *)s.c_str();
 }
-int main()
+int main() 
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
