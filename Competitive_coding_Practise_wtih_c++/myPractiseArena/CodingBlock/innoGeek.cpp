@@ -12,23 +12,22 @@ int main()
     int mn = INT16_MAX;
     int ans = 0;
     int x, y;
-    for (int i = 0; i < n - 1; i++)
+    for (int i = 0; i < n; i++)
     {
         // mn = min(mn, a[i]);
-        // ans = max(ans, a[i + 1] - mn);
+        // ans = max(ans, a[i] - mn);
 
         if (mn > a[i])
         {
             x = i;
             mn = a[i];
         }
-        if (ans < (a[i + 1] - mn))
+        if (ans < (a[i] - mn))
         {
-            y = i + 1;
-            ans = a[i + 1] - mn;
+            y = i;
+            ans = a[i] - mn;
         }
     }
-
     cout << ans << "   " << x << "  " << y << endl;
 
     return 0;

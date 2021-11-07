@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "*.module ": "php",
+        "cstring": "cpp",
+        "ostream": "cpp",
+        "random": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "string_view": "cpp"
+    },
+    "editor.minimap.maxColumn": 30,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "editor.formatOnPaste": true,
+    "diffEditor.codeLens": true,
+    "editor.glyphMargin": false,
+    "editor.overviewRulerBorder": false,
+    "editor.rulers": [
+        989
+    ],
+    "editor.letterSpacing": 1.2
+}

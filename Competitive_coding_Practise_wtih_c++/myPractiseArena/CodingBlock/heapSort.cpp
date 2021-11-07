@@ -26,6 +26,7 @@ void createHeap(int *a, int i)
         j = i / 2;
     }
 }
+
 void heapsort(int *a, int n)
 {
     for (int i = 2; i <= n; i++)
@@ -46,7 +47,7 @@ int main()
     int a[] = {0, 1, 233, 23, 34, 4, 45, 5, 3, 22, 30};
     int n = sizeof(a) / sizeof(a[0]);
 
-    heapsort(a, n-1);
+    heapsort(a, n - 1);
     for (int x : a)
         cout << x << " ";
 
